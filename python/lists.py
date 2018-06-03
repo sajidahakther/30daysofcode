@@ -19,3 +19,15 @@ print numbers[1] + numbers[3]
 zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
 zoo_animals[2] = "hyena"
 zoo_animals[3] = "lion"
+
+#004 LIST LENGTH
+suitcase = [] 
+suitcase.append("sunglasses")
+suitcase.append("dress")
+suitcase.append("bathing suit")
+suitcase.append("sandals")
+
+list_length = len(suitcase)
+
+print "There are %d items in the suitcase." % (list_length)
+print suitcase
