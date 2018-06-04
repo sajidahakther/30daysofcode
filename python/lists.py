@@ -31,3 +31,44 @@ list_length = len(suitcase)
 
 print "There are %d items in the suitcase." % (list_length)
 print suitcase
+
+#005 LIST SLICING
+suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
+
+# The first and second items (index zero and one)
+first = suitcase[0:2]
+
+# Third and fourth items (index two and three)
+middle = suitcase[2:4]
+
+# The last two items (index four and five)
+last =  suitcase[4:6]
+print middle
+print suitcase
+
+#006
+animals = "catdogfrog"
+
+# The first three characters of animals
+cat = animals[:3]
+
+# The fourth through sixth characters
+dog = animals[3:6]
+
+# From the seventh character to the end
+frog = animals[6:]
+
+#007
+animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
+
+duck_index = animals.index("duck")
+animals.insert(duck_index, "cobra")
+
+#inserted cobra at index 2, so duck shifts to index 3
+print animals 
+
+#008 
+my_list = [1,9,3,8,5,7]
+
+for number in my_list:
+  print 2 * number
