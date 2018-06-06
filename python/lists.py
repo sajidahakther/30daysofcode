@@ -58,7 +58,7 @@ dog = animals[3:6]
 # From the seventh character to the end
 frog = animals[6:]
 
-#007
+#007 INSERTING ANIMAL IN LIST
 animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
 
 duck_index = animals.index("duck")
@@ -67,13 +67,13 @@ animals.insert(duck_index, "cobra")
 #inserted cobra at index 2, so duck shifts to index 3
 print animals 
 
-#008 
+#008 MULTIPLYING INDICES IN LIST
 my_list = [1,9,3,8,5,7]
 
 for number in my_list:
   print 2 * number
 
-#009
+#009 SQUARING AND SORTING LIST
 start_list = [5, 3, 1, 2, 4]
 square_list = []
 
@@ -81,3 +81,11 @@ for x in start_list:
     square_list.append(x**2)
 square_list.sort()
 print square_list
+
+#010 ACCESSING VALUES BY KEYS
+# Assigning a dictionary with three key-value pairs to residents:
+residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
+
+print residents['Puffin'] 
+print residents['Sloth']
+print residents['Burmese Python']
