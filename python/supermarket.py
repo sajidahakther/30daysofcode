@@ -46,3 +46,39 @@ for letter in word:
   # Only print out the letter i
   if letter == "i":
     print letter
+    
+#006 
+prices = {
+  "banana" : 4,
+  "apple" : 2,
+  "orange" : 1.5,
+  "pear" : 3
+}
+
+#007-008 FRUIT PRICE AND STOCK
+prices = {
+  "banana" : 4,
+  "apple" : 2,
+  "orange" : 1.5,
+  "pear" : 3
+}
+
+stock = {
+  "banana" : 6,
+  "apple" : 0,
+  "orange" : 32,
+  "pear" : 15
+}
+
+for fruit in prices:
+  print fruit
+  print "- price: %s" % prices[fruit]
+  print "- stock: %s" % stock[fruit]
+  print 
+
+# Specific search
+for fruit in prices:
+  if fruit == "pear":
+    print fruit
+    print "* price: %s" % prices[fruit]
+    print "* stock: %s" % stock[fruit]
