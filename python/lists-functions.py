@@ -96,3 +96,25 @@ def total(numbers):
   return result
 
 print total(n)
+
+#016 - prints SajidahAkther
+n = ["Sajidah", "Akther"]
+# Add your function here
+def join_strings(words):
+  result = ""
+  for i in words:
+    result += i
+  return result
+
+print join_strings(n)
+
+#017 - prints [1, 2, 3, 4, 5, 6]
+m = [1, 2, 3]
+n = [4, 5, 6]
+
+def join_lists(x, y):
+  return x + y
+
+print join_lists(m, n)
+
+#018
