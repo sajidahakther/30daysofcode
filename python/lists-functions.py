@@ -117,4 +117,12 @@ def join_lists(x, y):
 
 print join_lists(m, n)
 
-#018
+#018 - prints [1, 2, 3, 4, 5, 6, 7, 8, 9]
+n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
+def flatten(lists):
+  results = []
+  for numbers in lists:
+    results += numbers
+  return results
+   
+print flatten(n)
