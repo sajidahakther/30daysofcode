@@ -1,4 +1,4 @@
-#012
+#011
 from random import randint
 
 board = []
