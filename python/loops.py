@@ -16,4 +16,10 @@ while loop_condition:
   print "I am a loop"
   loop_condition = False
   
-#003
+#003 - prints numbers from 1-10 squared
+num = 1
+
+while num < 11: 
+  num_squared = num ** 2
+  print num_squared
+  num += 1
