@@ -23,3 +23,9 @@ while num < 11:
   num_squared = num ** 2
   print num_squared
   num += 1
+
+#004
+choice = raw_input('Enjoying the course? (y/n)')
+
+while choice != "y" and choice != "n": 
+  choice = raw_input("Sorry, I didn't catch that. Enter again: ")
