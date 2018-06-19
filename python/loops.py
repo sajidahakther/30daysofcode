@@ -80,3 +80,17 @@ while guesses_left != 0:
 else: 
   print "You lose."
 
+#009
+print "Counting..."
+
+for i in range(20):
+  print i
+  
+#010
+hobbies = []
+
+for num in range(3):
+  hobby =  raw_input("Enter one of your hobbies: ")
+  hobbies.append(hobby)
+
+print hobbies
