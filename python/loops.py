@@ -94,3 +94,12 @@ for num in range(3):
   hobbies.append(hobby)
 
 print hobbies
+
+#011
+thing = "spam!"
+for c in thing:
+  print c
+
+word = "eggs!"
+for i in word:
+  print i
