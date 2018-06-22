@@ -103,3 +103,14 @@ for c in thing:
 word = "eggs!"
 for i in word:
   print i
+  
+#012 - prints "X  b i r d  i n  t h e  h X n d . . ."
+phrase = "A bird in the hand..."
+
+for char in phrase:
+  if char == "A" or char == "a":
+    print "X", 
+  else:
+    print char,
+    
+print
