@@ -125,3 +125,9 @@ for num in numbers:
 
 for num in numbers:
   print num ** 2
+
+#014 prints 'a apple, b berry, c cherry'
+d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+for key in d:
+  print key, d[key]
