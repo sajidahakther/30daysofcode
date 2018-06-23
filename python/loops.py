@@ -126,8 +126,15 @@ for num in numbers:
 for num in numbers:
   print num ** 2
 
-#014 prints 'a apple, b berry, c cherry'
+#014 - prints 'a apple, b berry, c cherry'
 d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
 
 for key in d:
   print key, d[key]
+  
+#015 - prints 'Your choices are: 1 pizza, 2 pasta, 3 salad, 4 nachos' 
+choices = ['pizza', 'pasta', 'salad', 'nachos']
+
+print 'Your choices are:'
+for index, item in enumerate(choices):
+  print index + 1, item
