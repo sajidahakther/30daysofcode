@@ -138,3 +138,46 @@ choices = ['pizza', 'pasta', 'salad', 'nachos']
 print 'Your choices are:'
 for index, item in enumerate(choices):
   print index + 1, item
+  
+#016 - Compares each pair of elements; print the larger of the two.
+list_a = [3, 9, 17, 15, 19]
+list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
+
+for a, b in zip(list_a, list_b):
+  if a > b:
+    print a
+  else:
+    print b
+
+#017
+fruits = ['banana', 'apple', 'orange', 'potato', 'pear', 'grape']
+
+print 'You have...'
+for f in fruits:
+  if f == 'potato':
+    print 'A potato is not a fruit!' 
+    break
+  print 'A', f
+else:
+  print 'A fine selection of fruits!'
+  
+#018 - modified #017 so that else statement is executed:
+fruits = ['banana', 'apple', 'orange', 'mango', 'pear', 'grape']
+
+print 'You have...'
+for f in fruits:
+  if f == 'potato':
+    print 'A potato is not a fruit!'
+    break
+  print 'A', f
+else:
+  print 'A fine selection of fruits!'
+  
+#019 
+vegetables = ['courgette', 'broccoli', 'cabbage', 'watercress' ]
+
+for veg in vegetables:
+  if veg == "courgette":
+    print "i love courgette"
+  else:
+    print "meh"
