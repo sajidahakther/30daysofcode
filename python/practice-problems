@@ -12,8 +12,11 @@ def is_int(x):
   else:
     return False
     
-#004 incomplete
-def digit_sum(n):
-  str(n)
-  for i in n:
-    print n
+#004 digit_sum(434) does (4+3+4=11) - prints 11 
+def digit_sum(x):
+    total = 0
+    while x > 0:
+        total += x % 10
+        x = x // 10
+        print x
+    return total
