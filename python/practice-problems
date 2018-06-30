@@ -28,4 +28,4 @@ def factorial(x):
   else:
     return x * factorial(x-1)
     
-#006
+#006 prime numbers
