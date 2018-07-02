@@ -28,4 +28,10 @@ def factorial(x):
   else:
     return x * factorial(x-1)
     
-#006 prime numbers
+#006 prime numbers (incomplete)
+def is_prime(x):
+  for range in (x-1):
+    if x % 2 ==0:
+      return False
+    else:
+      return True
