@@ -12,12 +12,8 @@ Write a loop that makes seven calls to console.log to output the following trian
 #######
 */
 
-let hash = "#";
 for (let i = 1; i <= 7; i++) {
-  if (i !== 1) {
-    hash += "#";
-  }
-  console.log(hash);
+  console.log("#".repeat(i))
 }
 
 /* 02. FizzBuzz 
@@ -36,16 +32,32 @@ for (let n = 1; n <= 100; n++) {
 }
 
 /* 03. Chessboard 
+Write a program that represents a 8x8 chessboard. At each posiiton of the grid there is either
+a space or a # character. Adjust the program so it works for any given width and height.
+
+ # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # # 
 */
 
+const width = 8;
 const height = 8;
-const width = 4;
+let chessboard = "";
 
-for (let c = 1; c <= height; c++) {
-  if (c % 2) {
-    console.log(" #".repeat(width));
-  } else {
-    console.log("# ".repeat(width));
+for (let y = 1; y <= height; y++) {
+  for (let x = 1; x <= width; x++) {
+    if ((y + x) % 2 === 0) {
+      chessboard += " ";
+    }
+    else {
+      chessboard += "#";
+    }
   }
+  chessboard += "\n";
 }
-
+console.log(chessboard);
